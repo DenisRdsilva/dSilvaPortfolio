@@ -27,13 +27,21 @@ List<Projects> projectList = [
       displayTitle: false,
       urlSite: 'https://psialicemedeiros.web.app/#/'),
   Projects(
-      name: "Daniel Oli Fotografias",
+      name: "Daniel Oli Portfolio",
       type: "Dart/Flutter",
       imageDesktop: "assets/projects/danieloli.jpeg",
       imageLarge: "assets/projects/danieloliGG.jpeg",
       imageMobile: "assets/projects/danielolimob.jpeg",
       displayTitle: false,
-      urlSite: 'https://ddanieolifotos.vercel.app/'),
+      urlSite: 'https://danieloliportfolio.web.app/'),
+        Projects(
+      name: "OBAMA",
+      type: "Dart/Flutter",
+      imageDesktop: "assets/projects/obama.png",
+      imageLarge: "assets/projects/obamaGG.png",
+      imageMobile: "assets/projects/obamamob.jpg",
+      displayTitle: false,
+      urlSite: 'https://obama.imd.ufrn.br/'),
   Projects(
       name: "PEX Delivery de Construção (Velty)",
       type: "Javascript/ReactJS",
