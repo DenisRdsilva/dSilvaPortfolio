@@ -32,6 +32,7 @@ class _HomeDesktopState extends State<HomeDesktop> {
   bool isVisible = true;
   bool expandPanel = false;
   bool showText = false;
+  final currentYear = DateTime.now().year;
 
   @override
   void initState() {
@@ -492,7 +493,7 @@ class _HomeDesktopState extends State<HomeDesktop> {
                 borderRadius: const BorderRadius.only(topRight: Radius.circular(75)),
               ),
               child: Center(
-                child: Text('DSilva © 2024',
+                child: Text('DSilva © $currentYear',
                     style: TextStyle(
                         fontFamily: "Raleway",
                         fontSize: 16,

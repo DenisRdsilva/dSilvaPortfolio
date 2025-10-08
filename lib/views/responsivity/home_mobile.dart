@@ -35,6 +35,7 @@ List<double> fontValues = [25, 16, 20, 17.5, 15, 17.5];
 class _HomeMobileState extends State<HomeMobile> {
   int _currentIndex = 0;
   bool isVisible = true;
+  final currentYear = DateTime.now().year;
 
   @override
   void initState() {
@@ -356,7 +357,7 @@ class _HomeMobileState extends State<HomeMobile> {
                 borderRadius: const BorderRadius.only(topRight: Radius.circular(75)),
               ),
               child: Center(
-                child: Text('DSilva © 2024',
+                child: Text('DSilva © $currentYear',
                     style: TextStyle(
                         fontFamily: "Raleway",
                         fontSize: 14,

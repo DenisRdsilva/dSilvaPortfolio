@@ -34,7 +34,7 @@ List<Projects> projectList = [
       imageMobile: "assets/projects/danielolimob.jpeg",
       displayTitle: false,
       urlSite: 'https://danieloliportfolio.web.app/'),
-        Projects(
+  Projects(
       name: "OBAMA",
       type: "Dart/Flutter",
       imageDesktop: "assets/projects/obama.png",
@@ -42,6 +42,30 @@ List<Projects> projectList = [
       imageMobile: "assets/projects/obamamob.jpg",
       displayTitle: false,
       urlSite: 'https://obama.imd.ufrn.br/'),
+  Projects(
+      name: "APotiguar (Velty)",
+      type: "Javascript",
+      imageDesktop: "assets/projects/potiguar.png",
+      imageLarge: "assets/projects/potiguarGG.png",
+      imageMobile: "assets/projects/potiguarmob.jpeg",
+      displayTitle: false,
+      urlSite: 'https://www.apotiguar.com.br/'),
+  Projects(
+      name: "Fio Soul (Velty)",
+      type: "Javascript/Liquid",
+      imageDesktop: "assets/projects/fiosoul.png",
+      imageLarge: "assets/projects/fiosoulGG.png",
+      imageMobile: "assets/projects/fiosoulmob.jpeg",
+      displayTitle: false,
+      urlSite: 'https://www.fiosoul.com.br/'),
+  Projects(
+      name: "Sem Etiqueta (Velty)",
+      type: "Javascript",
+      imageDesktop: "assets/projects/stq.png",
+      imageLarge: "assets/projects/stqGG.png",
+      imageMobile: "assets/projects/stqmob.jpeg",
+      displayTitle: false,
+      urlSite: 'https://www.semetiqueta.com.br/'),
   Projects(
       name: "PEX Delivery de Construção (Velty)",
       type: "Javascript/ReactJS",
@@ -90,30 +114,6 @@ List<Projects> projectList = [
       imageMobile: "assets/projects/calcmob.jpeg",
       displayTitle: false,
       urlSite: 'https://basicalculatormath.web.app/'),
-  Projects(
-      name: "APotiguar (Velty)",
-      type: "Javascript",
-      imageDesktop: "assets/projects/potiguar.png",
-      imageLarge: "assets/projects/potiguarGG.png",
-      imageMobile: "assets/projects/potiguarmob.jpeg",
-      displayTitle: false,
-      urlSite: 'https://www.apotiguar.com.br/'),
-  Projects(
-      name: "Fio Soul (Velty)",
-      type: "Javascript/Liquid",
-      imageDesktop: "assets/projects/fiosoul.png",
-      imageLarge: "assets/projects/fiosoulGG.png",
-      imageMobile: "assets/projects/fiosoulmob.jpeg",
-      displayTitle: false,
-      urlSite: 'https://www.fiosoul.com.br/'),
-  Projects(
-      name: "Sem Etiqueta (Velty)",
-      type: "Javascript",
-      imageDesktop: "assets/projects/stq.png",
-      imageLarge: "assets/projects/stqGG.png",
-      imageMobile: "assets/projects/stqmob.jpeg",
-      displayTitle: false,
-      urlSite: 'https://www.semetiqueta.com.br/'),
 ];
 
 class AboutMeObject {
